@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -19,16 +20,16 @@ const Footer = () => {
               <h3 className="font-bold text-2xl text-gray-500 mb-7">Links</h3>
               <ul className="flex flex-col lg:flex-col text-black justify-between h-[70%]">
                 <li className="sm:mr-4 mb-4 sm:mb-0">
-                  <a href="/" className="hover:text-gray-900 text-xl">Home</a>
+                  <Link href="/" className="hover:text-gray-900 text-xl">Home</Link>
                 </li>
                 <li className="sm:mr-4 mb-4 sm:mb-0">
-                  <a href="/shop" className="hover:text-gray-900 text-xl">Shop</a>
+                  <Link href="/shop" className="hover:text-gray-900 text-xl">Shop</Link>
                 </li>
                 <li className="sm:mr-4 mb-4 sm:mb-0">
-                  <a href="/about" className="hover:text-gray-900 text-xl">About</a>
+                  <Link href="/about" className="hover:text-gray-900 text-xl">About</Link>
                 </li>
                 <li className="sm:mr-4 mb-4 sm:mb-0">
-                  <a href="/contact" className="hover:text-gray-900 text-xl">Contact</a>
+                  <Link href="/contact" className="hover:text-gray-900 text-xl">Contact</Link>
                 </li>
               </ul>
             </div>
@@ -38,13 +39,13 @@ const Footer = () => {
               <h3 className="font-semibold text-2xl text-gray-500 mb-7">Help</h3>
               <ul className="flex flex-col lg:flex-col text-black justify-between h-[50%]">
                 <li className="sm:mr-4 mb-4 sm:mb-0">
-                  <a href="/payment-options" className="hover:text-gray-900 text-xl">Payment Options</a>
+                  <Link href="#" className="hover:text-gray-900 text-xl">Payment Options</Link>
                 </li>
                 <li className="sm:mr-4 mb-4 sm:mb-0">
-                  <a href="/returns" className="hover:text-gray-900 text-xl">Returns</a>
+                  <Link href="#" className="hover:text-gray-900 text-xl">Returns</Link>
                 </li>
                 <li className="sm:mr-4 mb-4 sm:mb-0">
-                  <a href="/privacy-policies" className="hover:text-gray-900 text-xl">Privacy Policies</a>
+                  <Link href="#" className="hover:text-gray-900 text-xl">Privacy Policies</Link>
                 </li>
               </ul>
             </div>

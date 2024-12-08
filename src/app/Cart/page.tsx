@@ -34,7 +34,7 @@ const page = () => {
    
     <div className="flex flex-col md:flex-row md:w-full items-center border-b py-4">
       <div className="flex items-center flex-1 py-2 px-4">
-        <img
+        <Image
           src="/c1.jpg"
           alt="Asgaard sofa"
           className="w-[108px] h-[108px] object-cover rounded mr-4"

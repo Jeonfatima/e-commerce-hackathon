@@ -163,7 +163,7 @@ const page = () => {
 
             <div className='w-full lg:max-w-[1024px] mx-auto pt-10 text-gray-500'>
             <p className="mb-4 text-md">
-          Embodying the raw, wayward spirit of rock 'n' roll, the Kilburn portable active stereo
+          Embodying the raw, wayward spirit of rock n roll, the Kilburn portable active stereo
           speaker takes the unmistakable look and sound of Marshall, unplugs the chords, and takes the
           show on the road.
         </p>
