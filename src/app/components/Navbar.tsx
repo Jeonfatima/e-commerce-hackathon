@@ -132,14 +132,14 @@ const Navbar = () => {
             <Link href="/" onClick={() => setMenuOpen(false)}>
               Home
             </Link>
+            <Link href="/Shop" onClick={() => setMenuOpen(false)}>
+              Shop
+            </Link>
+            <Link href="/Blog" onClick={() => setMenuOpen(false)}>
+              Blog
+            </Link>
             <Link href="/Contact" onClick={() => setMenuOpen(false)}>
               Contact
-            </Link>
-            <Link href="/About" onClick={() => setMenuOpen(false)}>
-              About
-            </Link>
-            <Link href="/SignUp" onClick={() => setMenuOpen(false)}>
-              Sign Up
             </Link>
             <div className="flex items-center gap-4">
               <input
